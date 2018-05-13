@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ViewScore">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/greeting_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="Congratulations"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="32dp"
+            android:textAllCaps="true"
+            android:textColor="#185dcc"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/winner"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Score"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:textAllCaps="true"
+            android:textColor="#185dcc"/>
+
+        <TextView
+            android:id="@+id/score_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="#185dcc"/>
+
+    </LinearLayout>
+
+</ScrollView>
